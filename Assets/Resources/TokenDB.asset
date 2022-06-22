@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda32574bae4dae49b8431f044822b70, type: 3}
+  m_Name: TokenDB
+  m_EditorClassIdentifier: 
+  tokenTemplates:
+  - name: comp_le
+    value: <=
+    color: {r: 0, g: 0.67505145, b: 0.6886792, a: 0}
+  - name: comp_l
+    value: <
+    color: {r: 0, g: 0.43573806, b: 0.735849, a: 0}
+  - name: comp_ne
+    value: <>
+    color: {r: 0.21256691, g: 0.120016046, b: 0.8773585, a: 0}
+  - name: comp_r
+    value: '>'
+    color: {r: 0.43922853, g: 0, b: 1, a: 0}
+  - name: comp_all
+    value: <=>
+    color: {r: 0.5008732, g: 0, b: 0.7924528, a: 0}
+  - name: space
+    value: ' '
+    color: {r: 1, g: 1, b: 1, a: 0}
+  - name: LeftSqrBracket
+    value: '['
+    color: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 0}
+  - name: RightSqrBracket
+    value: ']'
+    color: {r: 0.7254902, g: 0.7254902, b: 0.7254902, a: 1}
+  - name: srednik
+    value: ;
+    color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 0}
+  - name: koma
+    value: ','
+    color: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0}
+  - name: ifsym
+    value: IF
+    color: {r: 0.41568628, g: 0.57254905, b: 0.91764706, a: 0}
+  - name: makeSym
+    value: MAKE
+    color: {r: 0.41568628, g: 0.57254905, b: 0.91764706, a: 0}
+  - name: makeSym
+    value: FD
+    color: {r: 0.20784314, g: 0.79607844, b: 0.45882353, a: 0}
+  - name: makeSym
+    value: BK
+    color: {r: 0.20784314, g: 0.79607844, b: 0.45882353, a: 0}
+  - name: makeSym
+    value: RT
+    color: {r: 0.20784314, g: 0.79607844, b: 0.45882353, a: 0}
+  - name: makeSym
+    value: LT
+    color: {r: 0.20784314, g: 0.79607844, b: 0.45882353, a: 0}
